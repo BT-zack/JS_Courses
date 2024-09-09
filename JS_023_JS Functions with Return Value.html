@@ -1,0 +1,57 @@
+<!-- The return statement stops the execution of a function and returns a value.
+
+Syntax
+return value;
+Parameters
+Parameter	Description
+value	Optional.
+The value to be returned.
+If omitted, it returns undefined  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <script>
+        function fullname(fname = "Zack", lname = "Yatti") {
+            var a = fname + " " + lname;
+
+            return a;
+        }
+        
+        var fn = fullname("Ronald","ingh");
+        document.write(fn);
+    </script>
+</head>
+<body>
+</body>
+</html>
+ 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+  <script>
+    function sum(math,eng,sc){
+      var s = math + eng + sc;
+
+      return s;
+    }
+// tt means total
+    function percentage(tt){
+       var per = tt/300 * 100;
+       document.write(per);
+    }
+
+    var total = sum(80,80,80);
+
+    percentage(total);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

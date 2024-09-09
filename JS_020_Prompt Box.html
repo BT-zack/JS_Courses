@@ -1,0 +1,38 @@
+<!-- JavaScript prompt() dialog box
+The prompt() method in JavaScript is used to display a prompt box that prompts the user for the input. It is generally used to take the input from the user before entering the page. It can be written without using the window prefix. When the prompt box pops up, we have to click "OK" or "Cancel" to proceed.
+
+The box is displayed using the prompt() method, which takes two arguments: The first argument is the label which displays in the text box, and the second argument is the default string, which displays in the textbox. The prompt box consists of two buttons, OK and Cancel. It returns null or the string entered by the user. When the user clicks "OK," the box returns the input value. Otherwise, it returns null on clicking "Cancel".
+
+The prompt box takes the focus and forces the user to read the specified message. So, it should avoid overusing this method because it stops the user from accessing the other parts of the webpage until the box is closed.
+
+Syntax
+prompt(message, default)
+Values
+The parameter values of this function are defined as follows.
+
+message: It is an optional parameter. It is the text displays to the user. We can omit this value if we don't require to show anything in the prompt.
+
+default: It is also an optional parameter. It is a string that contains the default value displayed in the textbox.
+  -->
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+  <!-- Here you can use it with document.wite and also as a 'alert' popup -->
+  <!-- <script>
+    var a = prompt("What is your Name ?");
+
+    document.write(a);
+  </script> -->
+
+  <script>
+    var a = prompt("What is your Name ?");
+
+    alert(a);
+
+  </script>
+</head>
+<body>
+</body>
+</html>

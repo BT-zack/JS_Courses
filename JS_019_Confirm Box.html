@@ -1,0 +1,34 @@
+<!-- JavaScript confirm method invokes a function that asks the user for a confirmation dialogue on a particular action. The confirm () method uses a window object to invoke a dialogue with a question and two option buttons, OK and Cancel. If the user selects the OK option, it will continue to the function execution; selecting the Cancel option will abort the block code's execution.
+
+It returns true if the user selects the OK option; otherwise, it returns false.
+
+Syntax:
+confirm("Select an Option!");
+Parameters:
+It takes a "message" value in string format to display in the confirmation dialogue you want to show the user.
+
+Return value:
+The confirm method returns a Boolean output, either true or false, if the OK is selected.
+
+A boolean indicating whether OK (true) or Cancel (false) was selected. If a browser ignores in-page dialogues, then the returned value is always false. -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <script>
+        /* Confirm Box*/
+        var a = confirm ("Do you like our Website?");
+
+        if (a) {
+            alert("Thanks");
+        } else {
+            alert("Sorry");
+        } 
+    </script>
+</head>
+<body>
+</body>
+</html>
+

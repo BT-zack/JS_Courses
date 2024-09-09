@@ -1,0 +1,45 @@
+<!-- The change in the state of an object is known as an Event. In html, there are various events which represents that some activity is performed by the user or by the browser. When javascript code is included in HTML, js react over these events and allow the execution. This process of reacting over the events is called Event Handling. Thus, js handles the HTML events via Event Handlers.
+
+For example, when a user clicks over the browser, add js code, which will execute the task to be performed on the event.
+
+Some of the HTML events and their event handlers are:
+
+Mouse events:
+Event Performed	Event Handler	
+Description
+click	    onclick	        When mouse click on an element
+mouseover	onmouseover	    When the cursor of the mouse comes over the element
+mouseout	onmouseout	    When the cursor of the mouse leaves an element
+mousedown	onmousedown	    When the mouse button is pressed over the element
+mouseup	    onmouseup	    When the mouse button is released over the element
+mousemove	onmousemove	    When the mouse movement takes place.
+
+Keyboard events:
+Event Performed	Event Handler	Description
+Keydown & Keyup	onkeydown & onkeyup	When the user press and then release the key
+
+Form events:
+Event Performed	Event Handler	
+Description
+focus	onfocus	    When the user focuses on an element
+submit	onsubmit	When the user submits the form
+blur	onblur	    When the focus is away from a form element
+change	onchange	When the user modifies or changes the value of a form element -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <script>
+       function hello() {      
+            alert("Hello Everybody");
+        } 
+    </script>
+</head>
+<body onresize="hello()">
+    <button onclick ="hello()">Click Me</button>
+    <p ondblclick="hello()">Double Click on Me</p>
+    <p onmouseenter="hello()">On Mouse Enter</p>
+    <p onmouseout="hello()">On Mouse Out</p>
+</body>
+</html>

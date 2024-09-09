@@ -1,0 +1,44 @@
+<!-- Global Variable:
+These are variables that are defined in global scope i.e. (outside of functions). These variables have global scope, so they can be accessed by any function directly. In the case of global scope variables, the keyword they are declared with does not matter they all act the same. A variable declared without a keyword is also considered global even though it is declared in the function.
+
+Example: -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <script>
+        var a = "BT-zack";
+        function hello() {
+            document.write(a + "<br>");
+        }
+
+        hello(); 
+        document.write(a); 
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+<!-- Local Variable: 
+When you use JavaScript, local variables are variables that are defined within functions. They have local scope, which means that they can only be used within (inside the function) the functions that define them. Accessing them outside the function will throw an error
+
+Example: -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript</title>
+  <script>
+    function hello(){
+      var a = "BT-zack";
+      document.write(a + "<br>");
+    }
+
+    hello();
+    document.write(a);
+  </script>
+</head>
+<body>
+</body>
+</html>

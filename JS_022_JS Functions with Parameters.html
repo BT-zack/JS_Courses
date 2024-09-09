@@ -1,0 +1,43 @@
+<!-- 
+ The Javascript Function Parameters are the names that are defined in the function definition and real values passed to the function in the function definition are known as arguments. 
+
+Syntax: 
+function Name(paramet1, paramet2, paramet3,...) 
+{
+Statements
+}
+Parameter Rules: 
+There is no need to specify the data type for parameters in JavaScript function definitions.
+
+It does not perform type-checking based on the passed-in JavaScript functions.
+
+It does not check the number of received arguments.
+Parameters: 
+Name: It is used to specify the name of the function.
+Arguments: It is provided in the argument field of the function.
+Default Parameter: 
+The default parameters are used to initialize the named parameters with default values in case, when no value or undefined is passed. 
+
+Syntax: 
+function Name(paramet1 = value1, paramet2 = value2 .. .) 
+{
+statements
+} -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+    <script>
+        /* Functions With Parameters*/
+        function hello(fname= "zack",lname= "Yatti") {
+            document.write("Hello" + fname + " " + lname + "<br>");
+        }
+            
+        hello(" ronald","ingh");
+        hello(" alman", "han");
+    </script>
+</head>
+<body>
+</body>
+</html>
